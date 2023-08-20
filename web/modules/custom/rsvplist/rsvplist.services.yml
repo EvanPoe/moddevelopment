@@ -1,0 +1,4 @@
+services:
+  rsvplist.enabler:
+    class: Drupal\rsvplist\EnablerService
+    arguments: ['@database'] #We are dependency injecting the database service into our enabler service.
