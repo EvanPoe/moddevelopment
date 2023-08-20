@@ -1,0 +1,6 @@
+rsvplist.admin_settings_link:
+  title: RSVP List Settings
+  description: Control display of RSVP Form
+  route_name: rsvplist.admin_settings # points to the admin_settings route created in rsvplist.routing.yml
+  parent: system.admin_config_content # placed as a child under the parent /admin/config/content
+  weight: 10
