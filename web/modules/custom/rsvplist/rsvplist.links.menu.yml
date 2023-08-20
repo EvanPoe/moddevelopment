@@ -4,3 +4,10 @@ rsvplist.admin_settings_link:
   route_name: rsvplist.admin_settings # points to the admin_settings route created in rsvplist.routing.yml
   parent: system.admin_config_content # placed as a child under the parent /admin/config/content
   weight: 10
+
+resvplist.report_link:
+  title: List of RSVP submissions
+  description: View listing of RSVPs
+  route_name: rsvplist.report
+  parent: system.admin_reports #/admin/reports
+  weight: -5
