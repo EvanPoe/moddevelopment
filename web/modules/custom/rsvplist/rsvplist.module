@@ -31,7 +31,7 @@ function rsvplist_form_node_form_alter(&$form, FormStateInterface $form_state, $
     $enabler = \Drupal::service('rsvplist.enabler');
     $form['rsvplist']['rsvplist_enabled'] = [
       '#type' => 'checkbox',
-      '#title' => t('Collect RSVP email address for this node.'),
+      '#title' => t('Collect RSVP email addresses for this node.'),
       '#default_value' => $enabler->isEnabled($node),
     ];
 
